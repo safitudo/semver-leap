@@ -44,7 +44,10 @@ claude "build the app, start from master.md, run the tests"
 
 ## The LEAP Framework
 
-This is a proof-of-concept for **LEAP — LLM Engineered Application Pattern**. See [leapfrog-skill](https://github.com/safitudo/leapfrog-skill) for the installable Claude Code plugin.
+This is a proof-of-concept for **LEAP — LLM Engineered Application Pattern**. 
+
+- **[github.com/safitudo/leap](https://github.com/safitudo/leap)** — the hub: philosophy, spec, manifesto
+- **[github.com/safitudo/leap-skill](https://github.com/safitudo/leap-skill)** — installable Claude Code plugin
 
 Three artifacts, ranked by value:
 
