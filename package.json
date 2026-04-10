@@ -1,0 +1,23 @@
+{
+  "name": "semver-leap",
+  "version": "7.7.4",
+  "description": "LEAP port of node-semver — the semantic version parser used by npm.",
+  "main": "src/index.js",
+  "bin": {
+    "semver": "src/bin/semver.js"
+  },
+  "scripts": {
+    "test": "tap 'tests/bin/*.js' 'tests/classes/*.js' 'tests/functions/*.js' 'tests/ranges/*.js' 'tests/internal/*.js' 'tests/integration/*.js' tests/index.js tests/preload.js --timeout=30 --no-coverage"
+  },
+  "devDependencies": {
+    "tap": "^16.0.0"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=10"
+  },
+  "tap": {
+    "timeout": 30,
+    "coverage": false
+  }
+}
